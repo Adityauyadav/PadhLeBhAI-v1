@@ -1,4 +1,4 @@
-# PadhLeBh.AI-v1
+# PadhLeBhAI-v1
 
 
 "PadhLeBh.AI" is an AI-powered study planner created using OpenAI's GPT-4o API. It's the v1 of this tool which was developed for a hackathon and successfully won the competition. The application allows users to upload an image of their syllabus and specify their study preferences to generate a personalized study schedule.
