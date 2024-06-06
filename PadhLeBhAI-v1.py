@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 
 
-client = OpenAI(api_key="addYourAPIKEY here")
+client = OpenAI(api_key="sk-proj-E9UDdtkOxfuZ6ESEF4PST3BlbkFJCe69tj6SkzbPmUg0hHC8")
 st.title("Padh Le Bh.AI")
 
 
