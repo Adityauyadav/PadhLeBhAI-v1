@@ -12,7 +12,7 @@
 
 This tool is very helpful for the last month preparation of the examinations.
 
-It is created using OpenAI API of the GPT-4 omni Model and the UI is created using Streamlit Library.
+It is created using OpenAI API of the GPT-4 omni Model and the UI is created with Streamlit Library.
 
 
 
