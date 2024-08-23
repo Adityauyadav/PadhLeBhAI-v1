@@ -3,12 +3,17 @@ from openai import OpenAI
 import cloudinary
 import cloudinary.uploader
 import cloudinary.api
+from dotenv import load_dotenv
+import os
 
-# Retrieve the keys from Streamlit secrets
-openai_api_key = st.secrets["openai"]["api_key"]
-cloud_name = st.secrets["cloudinary"]["cloud_name"]
-cloudinary_api_key = st.secrets["cloudinary"]["api_key"]
-cloudinary_api_secret = st.secrets["cloudinary"]["api_secret"]
+# Load environment variables from the .env file
+load_dotenv()
+
+# Retrieve the keys from environment variables
+openai_api_key = os.getenv("OPENAI_API_KEY")
+cloud_name = os.getenv("CLOUDINARY_CLOUD_NAME")
+cloudinary_api_key = os.getenv("CLOUDINARY_API_KEY")
+cloudinary_api_secret = os.getenv("CLOUDINARY_API_SECRET")
 
 # Set up Cloudinary credentials
 cloudinary.config(
