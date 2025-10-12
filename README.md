@@ -44,17 +44,6 @@ client = OpenAI(api_key="addYourAPIKEY here")
 ```
 
 
-## Contributing
-
-Contributions are always welcome!
-Please feel free to submit a Pull Request or you can contact me if you have any idea/suggestions/issues related to this project.
-
-- Email: adityauyadav7@gmail.com
-- Twitter: https://www.x.com/adityauyadav
-- LinkedIN: https://www.linkedin.com/in/adityauyadav
- 
-
-
 ## Screenshots
 
 ![App Screenshot](Screenshot-1.png)
